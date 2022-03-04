@@ -15,14 +15,18 @@ header {
 header img {
     width: 5%;
     border-radius: 50%;
-    border: 2PX solid rgb(255, 68, 0);
 }
 
-ul {
+header ul {
     display: inline-flex;
     font-size: 36px;
     justify-content: space-between;
     width: 115%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 main {
@@ -33,24 +37,67 @@ span {
     color: rgb(255, 68, 0);
 }
 
+.photoStrip {
+    height: 30vh;
+    background-color: black;
+}
+
 .lightFont {
     color: aliceblue;
+}
+
+.darkFont {
+    color: darkgreen;
+}
+
+.separator {
+    margin-top: 3%;
+}
+
+.miniSeparator {
+    margin-top: 2%;
 }
 
 .aboutMe {
     font-size: 42px;
     line-height: 1.5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 75%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
 }
 
 .container {
-    /* border: 4px solid white; */
     width: 75%;
-    padding-left: 7%;
     line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bottomRightBrdr {
     border-bottom: 2px solid rgb(255, 68, 0);
     border-right: 2px solid rgb(255, 68, 0);
 }
+
+.contactInfo {
+    display: inline-flex;
+    font-size: 24px;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+.contactDetails {
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.contactDetails2 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 1%;
+}
+
