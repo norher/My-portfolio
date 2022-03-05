@@ -81,6 +81,18 @@ span {
     border-right: 2px solid rgb(255, 68, 0);
 }
 
+.myWorks {
+    display: flex;
+    flex: 0 0 33%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.worksSize {
+    width: 33%;
+    height: 100%;
+}
+
 .contactInfo {
     display: inline-flex;
     font-size: 24px;
