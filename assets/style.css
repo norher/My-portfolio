@@ -93,6 +93,19 @@ span {
     height: 100%;
 }
 
+/* .articleOne {
+    background-image: ./assets/Images/homeworkkeek1screenshot.png;
+} */
+
+.imageWrapper {
+    visibility: visible;
+    position: absolute;
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+
 .contactInfo {
     display: inline-flex;
     font-size: 24px;
@@ -117,3 +130,27 @@ span {
     width: 100%;
     text-align: center;
 }
+
+.imageWrapper:hover {
+    visibility: visible;
+}
+
+.contactDetails:hover {
+    border-radius: 9px;
+    transition: all 0.5s ease-in-out;
+    /* box-shadow: inset 0px 0px 8px rgb(255, 68, 0) 0 0 15px rgb(88,157,112); */
+    border-color:  rgb(255, 68, 0, .8);
+    box-shadow: 0 0px 0px rgba(211, 127, 49, 0.8) inset, 0 0 8px rgba(211, 127, 49, 0.8);
+}
+
+.contactDetails2:hover {
+    border-radius: 9px;
+    transition: all 0.5s ease-in-out;
+    border-color:  rgba(56, 17, 2, 0.8);
+    box-shadow: 0 0px 0px rgba(83, 40, 0, 0.8) inset, 0 0 8px rgba(36, 18, 0, 0.8);
+}
+
+/* <img src="./assets/Images/homeworkkeek1screenshot.png" alt="Semantic HTML Specialization" class="worksSize"/>
+<!-- <p class="imageWrapper">My latest Project</p> -->
+<img src="./assets/Images/miniprojectweek1screenshot.png" alt="Landing Page to collect user's information" class="worksSize"/>
+<img src="./assets/Images/aboutmeprework.png" alt="Introduction About Me" class="worksSize"/> */
