@@ -93,9 +93,9 @@ span {
     height: 100%;
 }
 
-/* .articleOne {
-    background-image: ./assets/Images/homeworkkeek1screenshot.png;
-} */
+.firstProject {
+    background-image: "C:\Users\norma\Desktop\fullstack\Homework\week2\My-portfolio\assets\Images\homeworkkeek1screenshot.png";
+}
 
 .imageWrapper {
     visibility: visible;
@@ -150,7 +150,30 @@ span {
     box-shadow: 0 0px 0px rgba(83, 40, 0, 0.8) inset, 0 0 8px rgba(36, 18, 0, 0.8);
 }
 
-/* <img src="./assets/Images/homeworkkeek1screenshot.png" alt="Semantic HTML Specialization" class="worksSize"/>
-<!-- <p class="imageWrapper">My latest Project</p> -->
-<img src="./assets/Images/miniprojectweek1screenshot.png" alt="Landing Page to collect user's information" class="worksSize"/>
-<img src="./assets/Images/aboutmeprework.png" alt="Introduction About Me" class="worksSize"/> */
+/* <!-- <p class="imageWrapper">My latest Project</p> --> */
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .bottomRightBrdr {
+        border-bottom: 2px solid rgb(123, 172, 228);
+        border-right: 2px solid rgb(123, 172, 228);
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+    }
+    header ul {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        color: rgb(123, 172, 228);
+    }
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+    }
+}
