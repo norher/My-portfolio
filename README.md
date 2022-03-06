@@ -29,6 +29,9 @@ This application is responsive for various types of screens.
 
 Some of the features that are changed are the size of the pictures. The color of my header borders and the direction of my nav and my contact a tags
 
-Finally, on the footer is what will probably be my default footer from now on. 
+Finally, on the footer is what will probably be my default footer from now on.
+
+Here's the link to the deployed application
+https://norher.github.io/My-portfolio/
 
 <img src="C:\Users\norma\Desktop\fullstack\Homework\week2\My-portfolio\assets\Images\app screenshot.png">
