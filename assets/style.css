@@ -81,44 +81,22 @@ span {
     border-right: 2px solid rgb(255, 68, 0);
 }
 
-/* .myWorks {
-    display: flex;
-    flex: 0 0 50%;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
-
 .worksSize {
-    width: 49%;
+    width: 75%;
 }
 
 .firstWork {
     width: 100%;
 }
 
-/* .worksContainer {
+.worksContainer {
     width: 75%;
     line-height: 1.5;
     justify-content: center;
-} */
-
-#allMyWorks {
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: inline-block;
 }
 
 .zoom {
     transition: transform .2s;
-}
-
-.imageWrapper {
-    visibility: visible;
-    position: absolute;
-    background-color: gray;
-    color: aliceblue;
-    text-align: center;
-    width: 100%;
 }
 
 .contactInfo {
@@ -144,10 +122,6 @@ span {
 .footer {
     width: 100%;
     text-align: center;
-}
-
-.imageWrapper:hover {
-    visibility: visible;
 }
 
 .contactDetails:hover {
